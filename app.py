@@ -31,6 +31,11 @@ st.sidebar.markdown("""
 - **대장 (Large Intestine)**  
   주로 수분 흡수가 이루어지며, 일부 지용성 약물이 흡수됩니다.
 """)
+show_sidebar_info()
+
+st.title("앱 제목")
+st.write("메인 화면 내용")
+
 
 # 예시 학습 데이터
 X_train = [
