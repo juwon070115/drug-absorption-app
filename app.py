@@ -1,6 +1,8 @@
 import streamlit as st
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
+
+# 사이드바에 부가 정보 표시
 st.sidebar.title("부가 정보")
 
 st.sidebar.markdown("""
@@ -31,13 +33,8 @@ st.sidebar.markdown("""
 - **대장 (Large Intestine)**  
   주로 수분 흡수가 이루어지며, 일부 지용성 약물이 흡수됩니다.
 """)
-show_sidebar_info()
 
-st.title("앱 제목")
-st.write("메인 화면 내용")
-
-
-# 예시 학습 데이터
+# 학습 데이터
 X_train = [
     [151, 0.5, 49, 4.5],
     [206, 2.1, 20, 5.2],
